@@ -3,6 +3,8 @@ lxc-scripts
 
 create.sh
 ---------
+Create an LXC container
+
 	Usage: ./create.sh -i <ip address> -p <path> -t <template> -r [name]
 	  -i            optional: IP address/mask
 	  -p            optional: path to save machine (default current path)
@@ -14,6 +16,8 @@ create.sh
 
 start.sh
 --------
+Start an LXC container
+
 	Usage: ./start.sh -l <path> -p <path> -i -q [name]
 	  -i            optional: interactive mode (not daemonized)
 	  -q            optional: disable daemon console logging
@@ -25,10 +29,11 @@ start.sh
 
 destroy.sh
 ----------
-Usage: ./destroy.sh [name] [path]
-        name            machine name
-        path            optional: path to save machine
-                        (assumes current path)
+Destroy an LXC container
+	Usage: ./destroy.sh [name] [path]
+	  name		machine name
+	  path		optional: path to save machine
+			(assumes current path)
 <br>
 
 
