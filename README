@@ -3,38 +3,38 @@ lxc-scripts
 
 create.sh
 ---------
-<pre>
+<code>
 Usage: ./create.sh -i <ip address> -p <path> -t <template> -r [name]
   -i            optional: IP address/mask
   -p            optional: path to save machine (default current path)
   -t            optional: machine template (default "default")
   -r            optional: rebuild template
   name          machine name
-</pre>
+</code>
 <br>
 
 
 start.sh
 --------
-<pre>
+<code>
 Usage: ./start.sh -l <path> -p <path> -i -q [name]
   -i            optional: interactive mode (not daemonized)
   -q            optional: disable daemon console logging
   -l            optional: log file path
   -p            optional: machine path
   name          machine name
-</pre>
+</code>
 <br>
 
 
 destroy.sh
 ----------
-<pre>
+<code>
 Usage: ./destroy.sh [name] [path]
         name            machine name
         path            optional: path to save machine
                         (assumes current path)
-</pre>
+</code>
 <br>
 
 
