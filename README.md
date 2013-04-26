@@ -25,10 +25,10 @@ start.sh
 
 destroy.sh
 ----------
-	Usage: ./destroy.sh [name] [path]
-	        name            machine name
-	        path            optional: path to save machine
-	                        (assumes current path)
+Usage: ./destroy.sh [name] [path]
+        name            machine name
+        path            optional: path to save machine
+                        (assumes current path)
 <br>
 
 
