@@ -1,7 +1,7 @@
 #!/bin/bash
 # Help/usage text
 help() {
-	echo "Usage: ./destroy.sh [name]"
+	echo "Usage: ./destroy.sh [name] [path]"
 	echo "	name		machine name"
 	echo "	path		optional: path to save machine"
 	echo "			(assumes current path)"
