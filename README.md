@@ -52,3 +52,14 @@ Copy of <code>/etc/network/interfaces</code> for happy bridging
 lxc-default
 -----------
 "Default" LXC container template used by scripts.  Builds a fairly minimal Ubuntu 12.04 x64 container.
+<br>
+<br>
+
+
+Tips
+----
+I copied the <code>\*.sh</code> files to <code>/usr/local/bin/</code> for ease of use:
+
+* <code>create.sh</code> &rarr; <code>/usr/local/bin/glxc-create</code>
+* <code>destroy.sh</code> &rarr; <code>/usr/local/bin/glxc-destroy</code>
+* <code>start.sh</code> &rarr; <code>/usr/local/bin/glxc-destroy</code>
