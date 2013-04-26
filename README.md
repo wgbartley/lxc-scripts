@@ -34,7 +34,7 @@ Destroy an LXC container
 	Usage: ./destroy.sh [name] [path]
 	  name			machine name
 	  path			optional: path to save machine
-	  			(assumes current path)
+	  				(assumes current path)
 <br>
 
 
